@@ -8,7 +8,7 @@
 $(call inherit-product, device/samsung/a30s/aosp_a30s.mk)
 
 # Inherit some common afterlife stuff.
-$(call inherit-product, vendor/banana/config/common.mk)
+$(call inherit-product, vendor/afterlife/config/common-full-phone.mk)
 
 PRODUCT_NAME := afterlife_a30s
 PRODUCT_DEVICE := a30s
